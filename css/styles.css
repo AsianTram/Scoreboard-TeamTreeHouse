@@ -1,0 +1,56 @@
+.scoreboard{
+    width: 40%;
+    margin: auto;
+    border: 0.25px solid lightgrey;
+}
+header{
+    width: 100%;
+    background-color: orange;
+    color: black;
+    margin-top: -20px;
+}
+.stats{
+    display: inline-block;
+}
+.player{
+    width: 100%;
+    
+}
+.player-name{
+    width: 60%;
+    display: inline-block;
+    font-size:1.75em;
+    
+}
+.counter{
+    width:40%;
+    display: inline-block;
+    font-size: 160%;
+    margin: 5% 0px 5% 0px;
+   
+}
+
+/* .counter-score{
+    width:50%;
+} */
+.counter-action{
+    width: 40%;
+    font-size: 100%;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 5%;
+}
+.counter-action:hover{
+    background-color: beige;
+}
+.remove-player{
+    color: white;
+    background-color: red;
+    border:0px;
+    border-radius: 5%;
+    margin: 1em;
+    vertical-align: middle;
+}
+.remove-player:hover{
+    background-color: dimgray;
+}
